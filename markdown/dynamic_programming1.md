@@ -309,7 +309,7 @@ LCS(X, Y):
 1. Practice problems:
     * DPV 6.1 (contiguous subsequence aka substring)
     * DPV 6.2 (hotel stops)
-    * DPV 4.3 (Yuckdonald's)
+    * DPV 6.3 (Yuckdonald's)
     * DPV 6.4 (string of words)
     * DPV 6.11 (longest common substring)
 2. Approach:
