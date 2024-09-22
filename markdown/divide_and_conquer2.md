@@ -49,7 +49,7 @@
 
 ## Simple Recurrence
 
-1. What does the recurrence T(n) = T(n/2) + O(n) sovle to?
+1. What does the recurrence T(n) = T(n/2) + O(n) solve to?
     * T(n) = O(log(n))
     * T(n) = O(n)
         - Correct

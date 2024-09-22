@@ -69,3 +69,12 @@
         - If a = b: O(nlog(n))
         - If a < b: O(n)
     * This is how the Master Theorem is derived
+
+## Some Properties of Logs
+
+1. log~b~(xy) = log~b~(x) + log~b~(y)
+2. log~b~(x/y) = log~b~(x) - log~b~(y)
+3. log~b~(x^n^) = nlog~b~(x)
+4. x^log~b~(y)^ = y^log~b~(x)^
+5. log~b~(x) = log~a~(x) / log~a~(b)
+6. We presume log~2~ unless specifically indicated or otherwise obvious
