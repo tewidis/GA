@@ -231,7 +231,7 @@ and Y
 2. Y = ABECBABD
 3. If Xi != Yj either Xi and/or Yj are not in optimal solution
     * If drop Xi then L(i,j) = L(i-1,j)
-    * If drop Yi then L(i,j) = L(j,j-1)
+    * If drop Yi then L(i,j) = L(i,j-1)
     * L(i,j) = max{L(i-1,j), L(i,j-1)}
 
 ### LCS: Recurrence Equal Case
@@ -240,7 +240,7 @@ and Y
 2. Y = ABECBA
 3. If Xi == Yj either drop Xi, drop Yj, or optimal solution ends at Xi = Yj
     * If drop Xi then L(i,j) = L(i-1,j)
-    * If drop Yi then L(i,j) = L(j,j-1)
+    * If drop Yi then L(i,j) = L(i,j-1)
     * If optimal solution then L(i,j) = 1 + L(i-1,j-1)
 
 ### LCS: Recurrence Equal Recap
