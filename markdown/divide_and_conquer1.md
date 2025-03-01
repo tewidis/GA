@@ -107,7 +107,7 @@ def FastMultiply(x,y):
     A = FastMultiply(xl, yl)
     B = FastMultiply(xr, yr)
     C = FastMultiply(xl+xr, yl+yr)
-    z = A * 2 ** n + (C - A - B) + B
+    z = A * 2 ** n + 2 ** (n/2) * (C - A - B) + B
     return z
 ```
 
